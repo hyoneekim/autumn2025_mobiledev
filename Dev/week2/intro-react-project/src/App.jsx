@@ -9,10 +9,10 @@ import Greeting from './Greeting';
 function App() {
   return (
     <div>
-      <Header title="Welcome to My React App" />
-      <MainContent content="This is the main content of the page." />
-      <Greeting message="Goodbye" name="John" />
-      <Footer footerText="© 2025 My React App" />
+      <Header title="Welcome to My Intro React App" />
+      <MainContent content="This is going to be my react app :)" />
+      <Greeting message="Goodbye" name="Sami" />
+      <Footer footerText="© 2025 Your React App" />
     </div>
   );
 }
