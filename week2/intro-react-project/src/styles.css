@@ -1,0 +1,57 @@
+/* 전체 배경과 기본 글꼴 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* 전체 컨테이너 */
+.app-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 24px;
+}
+
+/* Header */
+header {
+  border-bottom: 2px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #2563eb;
+  margin: 0;
+}
+
+/* MainContent */
+main {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Greeting 박스 */
+.greeting-box {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 12px;
+}
